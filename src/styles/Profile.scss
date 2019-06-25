@@ -2,20 +2,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 475px;
+  margin-bottom: 40px;
   img {
-    height: 65px;
-    width: 65px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
   }
   .profile-right {
     width: 400px;
     line-height: 120%;
+    display: flex;
+    align-items: center;
+    div {
+      margin-left: 10px;
+    }
     h2 {
       font-weight: 700;
     }
     h4 {
       color: rgb(131, 131, 131);
+    }
+  }
+  .bottom {
+    a {
+      margin: 0 5px;
     }
   }
 }

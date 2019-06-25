@@ -10,7 +10,11 @@
   margin: 0 auto;
   .body {
     font-family: "Lato", sans-serif;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 20px;
+    .title {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
   }
 }
