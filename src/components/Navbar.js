@@ -1,11 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../scss/Navbar.scss";
+import B from "../assets/apple-touch-icon.png";
 
 function Navbar() {
   return (
     <div className="Navbar">
-      <div className="left">Brian Illes</div>
+      <div className="left">
+        <img src={B} alt="B logo" />
+      </div>
       <div className="right">
         <NavLink exact to="/" activeClassName="activeNav">
           Home

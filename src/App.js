@@ -11,11 +11,15 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
-        <Route exact path="/" component={Home} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        <div className="navbar-wrapper">
+          <Navbar />
+        </div>
+        <div className="main-wrapper">
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+        </div>
       </div>
     </Router>
   );
