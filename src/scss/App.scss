@@ -2,10 +2,23 @@
 
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 .App {
   font-family: "Roboto", sans-serif;
   max-width: 800px;
   margin: 0 auto;
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    margin-top: 25px;
+    line-height: 175%;
+    span {
+      background: rgb(233, 233, 233);
+      padding: 3px 6px;
+      border-radius: 6px;
+    }
+  }
 }
