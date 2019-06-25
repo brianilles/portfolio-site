@@ -1,0 +1,23 @@
+.Navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  .left {
+    font-size: 20px;
+  }
+  .right {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+      opacity: 0.5;
+      color: #000;
+    }
+    .activeNav {
+      opacity: 1;
+    }
+  }
+}
