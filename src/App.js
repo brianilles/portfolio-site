@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.scss";
+import "./styles/App.scss";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.js";
 import Blog from "./components/Blog.js";

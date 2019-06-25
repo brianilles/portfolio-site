@@ -1,0 +1,21 @@
+.Profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 475px;
+  img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+  }
+  .profile-right {
+    width: 400px;
+    line-height: 120%;
+    h2 {
+      font-weight: 700;
+    }
+    h4 {
+      color: rgb(131, 131, 131);
+    }
+  }
+}

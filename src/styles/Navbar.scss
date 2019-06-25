@@ -1,0 +1,26 @@
+.Navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .nav-right {
+    width: 235px;
+    display: flex;
+    justify-content: space-between;
+    a {
+      font-size: 17.5px;
+      opacity: 0.6;
+    }
+    .activeNavLink {
+      opacity: 1;
+    }
+  }
+}
