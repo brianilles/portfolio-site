@@ -7,6 +7,9 @@ import { Zap } from "styled-icons/boxicons-solid/Zap";
 import { Email } from "styled-icons/material/Email";
 import { Calendar } from "styled-icons/boxicons-regular/Calendar";
 import Brian from "../assets/brian.JPG";
+import Livesafe from "../assets/livesafe.png";
+import Saferoutes from "../assets/saferoutes.png";
+import TablessThursday from "../assets/tabless-thursday.png";
 import "../scss/Home.scss";
 
 const GithubDark = styled(Github)`
@@ -52,7 +55,7 @@ export default function Home() {
             <img src={Brian} alt="Brian Illes" />
           </div>
           <div className="title">
-            <h2>Software Developer</h2>
+            <h2>Full-Stack Software Developer</h2>
             <p>
               <ZapDark /> Skills: Javascript | Python | React | Redux | Node.js
               | Express | HTML | CSS | LESS/SASS
@@ -85,7 +88,18 @@ export default function Home() {
               <CalendarDark />
             </p>
           </div>
-          <p className="description">coming soon</p>
+          <div className="description">
+            <img src={Livesafe} alt="Livesafe" />
+            <p>
+              Livesafe is a web application that provides home buyers and
+              renters a 1-stop shop for assessing and comparing natural disaster
+              risks for any location in the U.S. View it live here:
+              <a href="https://livesafe.services/">https://livesafe.services</a>
+              <a href="https://github.com/labs12-should-i-live-here">
+                <GithubDark />
+              </a>
+            </p>
+          </div>
         </div>
         <div className="card">
           <div className="card-title">
@@ -95,7 +109,20 @@ export default function Home() {
               <CalendarDark />
             </p>
           </div>
-          <p className="description">coming soon</p>
+          <div className="description">
+            <img src={Saferoutes} alt="Saferoutes" />
+            <p>
+              Livesafe is a web application that provides home buyers and
+              renters a 1-stop shop for assessing and comparing natural disaster
+              risks for any location in the U.S. View it live here:
+              <a href="https://safe-routes.netlify.com">
+                https://safe-routes.netlify.com
+              </a>
+              <a href="https://github.com/safe-routes/Build-SafeRoutes-BE">
+                <GithubDark />
+              </a>
+            </p>
+          </div>
         </div>
         <div className="card">
           <div className="card-title">
@@ -105,9 +132,33 @@ export default function Home() {
               <CalendarDark />
             </p>
           </div>
-          <p className="description">coming soon</p>
+          <div className="description">
+            <img src={TablessThursday} alt="Tabless Thursday" />
+            <p>
+              Livesafe is a web application that provides home buyers and
+              renters a 1-stop shop for assessing and comparing natural disaster
+              risks for any location in the U.S. View it live here:
+              <a href="https://tablessthursday.netlify.com">
+                https://tablessthursday.netlify.com
+              </a>
+              <a href="https://github.com/tabless-thursday/Tabless-Thursday-Brian">
+                <GithubDark />
+              </a>
+            </p>
+          </div>
         </div>
       </div>
+      <footer>
+        <a href="https://github.com/brilles">
+          <GithubDark />
+        </a>
+        <a href="https://www.linkedin.com/in/brian-illes/">
+          <LinkedinDark />
+        </a>
+        <a href="https://twitter.com/brianilles">
+          <TwitterDark />
+        </a>
+      </footer>
     </>
   );
 }

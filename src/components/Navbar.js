@@ -15,9 +15,6 @@ export default function Navbar() {
         <NavLink to="/about" activeClassName="activeNav">
           About
         </NavLink>
-        <NavLink to="/blog" activeClassName="activeNav">
-          Blog
-        </NavLink>
       </div>
     </div>
   );
