@@ -52,13 +52,34 @@
   .card {
     height: 150px;
     width: 400px;
-    border: 1px solid red;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 4px;
     margin: 30px 0;
+    padding: 8px;
+    .card-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h4 {
+        font-weight: 700;
+        padding-right: 10px;
+      }
+      .month {
+        span {
+          padding-right: 10px;
+          font-size: 14px;
+          font-weight: 600;
+          color: rgb(128, 128, 128);
+        }
+      }
+    }
+    .description {
+      margin-top: 10px;
+    }
   }
   h3 {
     background: rgb(226, 226, 226);
     font-size: 20px;
-    border-bottom: 1px solid rgb(71, 71, 71);
     padding-bottom: 5px;
     padding: 5px;
   }

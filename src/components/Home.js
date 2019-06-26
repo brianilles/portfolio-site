@@ -5,6 +5,7 @@ import { LinkedinSquare } from "styled-icons/boxicons-logos/LinkedinSquare";
 import { Twitter } from "styled-icons/boxicons-logos/Twitter";
 import { Zap } from "styled-icons/boxicons-solid/Zap";
 import { Email } from "styled-icons/material/Email";
+import { Calendar } from "styled-icons/boxicons-regular/Calendar";
 import Brian from "../assets/brian.JPG";
 import "../scss/Home.scss";
 
@@ -31,6 +32,12 @@ const EmailDark = styled(Email)`
 `;
 
 const ZapDark = styled(Zap)`
+  color: #000;
+  height: 20px;
+  width: 20px;
+`;
+
+const CalendarDark = styled(Calendar)`
   color: #000;
   height: 20px;
   width: 20px;
@@ -70,9 +77,36 @@ export default function Home() {
       </div>
       <div className="main-content">
         <h3>Projects</h3>
-        <div className="card">Livesafe</div>
-        <div className="card">SafeRoutes</div>
-        <div className="card">Tabless Thursday</div>
+        <div className="card">
+          <div className="card-title">
+            <h4>Live Safe</h4>
+            <p className="month">
+              <span>APRIL 2019</span>
+              <CalendarDark />
+            </p>
+          </div>
+          <p className="description">coming soon</p>
+        </div>
+        <div className="card">
+          <div className="card-title">
+            <h4>Safe Routes</h4>
+            <p className="month">
+              <span>MARCH 2019</span>
+              <CalendarDark />
+            </p>
+          </div>
+          <p className="description">coming soon</p>
+        </div>
+        <div className="card">
+          <div className="card-title">
+            <h4>Tabless Thursday</h4>
+            <p className="month">
+              <span> FEBRUARY 2019</span>
+              <CalendarDark />
+            </p>
+          </div>
+          <p className="description">coming soon</p>
+        </div>
       </div>
     </>
   );
