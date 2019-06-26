@@ -112,9 +112,8 @@ export default function Home() {
           <div className="description">
             <img src={Saferoutes} alt="Saferoutes" />
             <p>
-              Livesafe is a web application that provides home buyers and
-              renters a 1-stop shop for assessing and comparing natural disaster
-              risks for any location in the U.S. View it live here:
+              Saferoutes is a web application that informs drivers about
+              accidents in their area and when they occured. View it live here:
               <a href="https://safe-routes.netlify.com">
                 https://safe-routes.netlify.com
               </a>
@@ -135,9 +134,8 @@ export default function Home() {
           <div className="description">
             <img src={TablessThursday} alt="Tabless Thursday" />
             <p>
-              Livesafe is a web application that provides home buyers and
-              renters a 1-stop shop for assessing and comparing natural disaster
-              risks for any location in the U.S. View it live here:
+              Tabless Thursday is an application that helps users organize their
+              many tabs in one place. View it live here:
               <a href="https://tablessthursday.netlify.com">
                 https://tablessthursday.netlify.com
               </a>
