@@ -1,0 +1,66 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  .profile {
+    img {
+      height: 90px;
+      border-radius: 50%;
+    }
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    a {
+      opacity: 0.7;
+      text-decoration: none;
+      color: #000;
+      font-weight: 700;
+      border-radius: 30px;
+      padding: 6px;
+      text-align: center;
+    }
+    a:hover {
+      opacity: 1;
+      background: rgba(175, 175, 175, 0.308);
+    }
+  }
+  .title {
+    padding-left: 10px;
+    font-weight: 700;
+    color: rgb(50, 115, 255);
+    font-size: 15px;
+    line-height: 120%;
+    width: 510px;
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #000;
+      padding-bottom: 5px;
+    }
+    h3 {
+      color: rgb(128, 128, 128);
+      padding-bottom: 5px;
+      font-size: 16px;
+    }
+  }
+}
+.main-content {
+  margin-top: 30px;
+  .card {
+    height: 150px;
+    width: 400px;
+    border: 1px solid red;
+    margin: 30px 0;
+  }
+  h3 {
+    background: rgb(226, 226, 226);
+    font-size: 20px;
+    border-bottom: 1px solid rgb(71, 71, 71);
+    padding-bottom: 5px;
+    padding: 5px;
+  }
+}

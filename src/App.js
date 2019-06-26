@@ -1,11 +1,25 @@
 import React from "react";
-import "./App.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import About from "./components/About.js";
+import Blog from "./components/Blog.js";
+import Home from "./components/Home.js";
+import Navbar from "./components/Navbar.js";
+import "./scss/App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <p>coming soon</p>
-    </div>
+    <Router>
+      <div className="App">
+        <div className="navbar">
+          <Navbar />
+        </div>
+        <div className="main">
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/blog" component={Blog} />
+        </div>
+      </div>
+    </Router>
   );
 }
 

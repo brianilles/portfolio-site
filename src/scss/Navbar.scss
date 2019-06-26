@@ -1,0 +1,32 @@
+.nav {
+  height: 60px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+  }
+  .left {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .right {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    a {
+      opacity: 0.6;
+    }
+    a:hover {
+      opacity: 1;
+    }
+
+    .activeNav {
+      opacity: 1;
+    }
+  }
+}
