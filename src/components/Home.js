@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { Github } from "styled-icons/boxicons-logos/Github";
 import { LinkedinSquare } from "styled-icons/boxicons-logos/LinkedinSquare";
 import { Twitter } from "styled-icons/boxicons-logos/Twitter";
+import { Zap } from "styled-icons/boxicons-solid/Zap";
+import { Email } from "styled-icons/material/Email";
 import Brian from "../assets/brian.JPG";
 import "../scss/Home.scss";
 
@@ -22,6 +24,18 @@ const TwitterDark = styled(Twitter)`
   width: 25px;
 `;
 
+const EmailDark = styled(Email)`
+  color: #000;
+  height: 20px;
+  width: 20px;
+`;
+
+const ZapDark = styled(Zap)`
+  color: #000;
+  height: 20px;
+  width: 20px;
+`;
+
 export default function Home() {
   return (
     <>
@@ -32,10 +46,12 @@ export default function Home() {
           </div>
           <div className="title">
             <h2>Software Developer</h2>
-            <h3>Problem Solver · Builder</h3>
             <p>
-              Skills: Javascript | Python | React | Redux | Node.js | Express |
-              HTML | CSS | LESS/SASS
+              <ZapDark /> Skills: Javascript | Python | React | Redux | Node.js
+              | Express | HTML | CSS | LESS/SASS
+            </p>
+            <p>
+              <EmailDark /> brianrilles@gmail.com
             </p>
           </div>
         </div>

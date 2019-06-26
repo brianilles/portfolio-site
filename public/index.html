@@ -8,9 +8,35 @@
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Brian Illes</title>
+    <style>
+      @keyframes rotation {
+        from {
+          -webkit-transform: rotate(0deg);
+        }
+
+        to {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div
+        style="height: 100%;
+              width: 100%;
+              display: flex;
+              position: fixed;
+              align-items: center;
+              justify-content: center;"
+      >
+        <img
+          src="/apple-touch-icon.png"
+          alt="Relay Logo"
+          style="height:75px;width:75px;animation:rotation 3s infinite linear;opacity:.25;"
+        />
+      </div>
+    </div>
   </body>
 </html>

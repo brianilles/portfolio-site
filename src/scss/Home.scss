@@ -9,6 +9,7 @@
     img {
       height: 90px;
       border-radius: 50%;
+      background: rgb(219, 219, 219);
     }
   }
   .links {
@@ -25,25 +26,23 @@
     }
     a:hover {
       opacity: 1;
-      background: rgba(175, 175, 175, 0.308);
+      background: rgb(238, 238, 238);
     }
   }
   .title {
     padding-left: 10px;
     font-weight: 700;
-    color: rgb(50, 115, 255);
+    color: rgb(128, 128, 128);
     font-size: 15px;
-    line-height: 120%;
+    line-height: 150%;
     width: 510px;
     h2 {
       font-size: 20px;
       font-weight: 700;
       color: #000;
-      padding-bottom: 5px;
+      padding-bottom: 6px;
     }
     h3 {
-      color: rgb(128, 128, 128);
-      padding-bottom: 5px;
       font-size: 16px;
     }
   }
