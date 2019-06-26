@@ -55,7 +55,7 @@ export default function Home() {
             <img src={Brian} alt="Brian Illes" />
           </div>
           <div className="title">
-            <h2>Full-Stack Software Developer</h2>
+            <h2>Full-Stack Web Developer</h2>
             <p>
               <ZapDark /> Skills: Javascript | Python | React | Redux | Node.js
               | Express | HTML | CSS | LESS/SASS
