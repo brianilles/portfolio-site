@@ -1,0 +1,15 @@
+.footer {
+  height: 5vh;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  .left {
+    width: 80%;
+    text-align: left;
+  }
+  .right {
+    width: 20%;
+    text-align: right;
+  }
+}
