@@ -1,9 +1,14 @@
 import React from "react";
+import Tabs from "./Tabs";
+import "../scss/Contact.scss";
 
 export default function Contact() {
   return (
     <div>
-      <p>Contact</p>
+      <div className="top">Contact</div>
+      <div className="bottom">
+        <Tabs />
+      </div>
     </div>
   );
 }
