@@ -38,12 +38,16 @@
   }
   .profile-right {
     line-height: 1.6;
-    width: 50%;
+    width: 55%;
     a {
       color: red;
       text-decoration: none;
-      border-bottom: 2px solid red;
+      background: none;
+      margin: 0;
+      padding: 0;
       padding-bottom: 3px;
+      border-bottom: 2px solid red;
+      border-radius: 0;
     }
   }
   .currently {

@@ -33,7 +33,9 @@ export default function About() {
               Currently - Finishing up Lambda School’s Computer Science and Web
               Development Program
             </p>
-            <Link to="/projects">See what I've been working on.</Link>
+            <Link className="link" to="/projects">
+              See what I've been working on
+            </Link>
           </div>
         </div>
       </div>
