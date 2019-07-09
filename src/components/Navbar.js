@@ -2,6 +2,15 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "../scss/Navbar.scss";
 import Blogo from "../assets/b-logo.svg";
+import styled from "styled-components";
+import { Moon } from "styled-icons/boxicons-regular/Moon";
+
+const MoonOutline = styled(Moon)`
+  color: #000;
+  height: 35px;
+  width: 35px;
+  transform: rotate(-20deg);
+`;
 
 export default function Navbar() {
   return (
@@ -19,11 +28,12 @@ export default function Navbar() {
         <NavLink to="/projects" activeClassName="activeNav">
           PROJECTS
         </NavLink>
-      </div>
-      <div className="right">
         <NavLink to="/contact" activeClassName="activeNav">
           CONTACT
         </NavLink>
+      </div>
+      <div className="right">
+        <MoonOutline />
       </div>
     </div>
   );
