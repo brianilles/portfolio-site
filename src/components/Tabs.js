@@ -4,6 +4,7 @@ import { PrimitiveDot } from "styled-icons/octicons/PrimitiveDot";
 import { KeyboardArrowRight } from "styled-icons/material/KeyboardArrowRight";
 import "../scss/Tabs.scss";
 import { withRouter, Link } from "react-router-dom";
+import "animate.css";
 
 const PrimitiveDotBlue = styled(PrimitiveDot)`
   color: #0066ff;
@@ -54,7 +55,7 @@ class Tabs extends Component {
         <div className="dots">
           {one} {two} {three} {four}
         </div>
-        <div className="arrow">
+        <div className="arrow animated shake">
           {this.props.location.pathname === "/" ? (
             <Link to="/about">
               <KeyboardArrowRightBlack />
