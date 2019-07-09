@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { PrimitiveDot } from "styled-icons/octicons/PrimitiveDot";
 import { KeyboardArrowRight } from "styled-icons/material/KeyboardArrowRight";
 import "../scss/Tabs.scss";
-import { withRouter } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 
 const PrimitiveDotBlue = styled(PrimitiveDot)`
   color: #0066ff;
@@ -33,19 +33,20 @@ class Tabs extends Component {
   };
   componentDidMount() {
     let { pathname } = this.props.location;
-    if (pathname == "/") {
+    if (pathname === "/") {
       this.setState({ one: <PrimitiveDotBlue /> });
     }
-    if (pathname == "/about") {
+    if (pathname === "/about") {
       this.setState({ two: <PrimitiveDotBlue /> });
     }
-    if (pathname == "/projects") {
+    if (pathname === "/projects") {
       this.setState({ three: <PrimitiveDotBlue /> });
     }
-    if (pathname == "/contact") {
+    if (pathname === "/contact") {
       this.setState({ four: <PrimitiveDotBlue /> });
     }
   }
+
   render() {
     const { one, two, three, four } = this.state;
     return (
@@ -53,13 +54,15 @@ class Tabs extends Component {
         <div className="dots">
           {one} {two} {three} {four}
         </div>
-        {/* {path === "/" ? (
-          <div className="arrow">
-            <KeyboardArrowRightBlack />
-          </div>
-        ) : (
-          <></>
-        )} */}
+        <div className="arrow">
+          {this.props.location.pathname === "/" ? (
+            <Link to="/about">
+              <KeyboardArrowRightBlack />
+            </Link>
+          ) : (
+            " "
+          )}
+        </div>
       </div>
     );
   }

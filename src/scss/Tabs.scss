@@ -1,24 +1,12 @@
 .tabs {
   display: flex;
   align-items: center;
+  .arrow {
+    width: 45px;
+    z-index: 1;
+  }
 }
 .dots {
   width: 100%;
-}
-.arrow {
-  z-index: 2;
-  transition: all 1s ease-in-out;
-  animation: animate 1.5s infinite;
-}
-
-@keyframes animate {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: 200px;
-  }
-  100% {
-    left: 0;
-  }
+  margin-left: 45px;
 }
