@@ -26,20 +26,32 @@ const KeyboardArrowRightBlack = styled(KeyboardArrowRight)`
 
 class Tabs extends Component {
   state = {
-    path: ""
+    one: <PrimitiveDotGrey />,
+    two: <PrimitiveDotGrey />,
+    three: <PrimitiveDotGrey />,
+    four: <PrimitiveDotGrey />
   };
   componentDidMount() {
-    this.setState({ path: this.props.location.pathname });
+    let { pathname } = this.props.location;
+    if (pathname == "/") {
+      this.setState({ one: <PrimitiveDotBlue /> });
+    }
+    if (pathname == "/about") {
+      this.setState({ two: <PrimitiveDotBlue /> });
+    }
+    if (pathname == "/projects") {
+      this.setState({ three: <PrimitiveDotBlue /> });
+    }
+    if (pathname == "/contact") {
+      this.setState({ four: <PrimitiveDotBlue /> });
+    }
   }
   render() {
-    const { path } = this.state;
+    const { one, two, three, four } = this.state;
     return (
       <div className="tabs">
         <div className="dots">
-          <PrimitiveDotBlue />
-          <PrimitiveDotGrey />
-          <PrimitiveDotGrey />
-          <PrimitiveDotGrey />
+          {one} {two} {three} {four}
         </div>
         {/* {path === "/" ? (
           <div className="arrow">
