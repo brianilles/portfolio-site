@@ -19,8 +19,8 @@ const PrimitiveDotGrey = styled(PrimitiveDot)`
 
 const KeyboardArrowRightBlack = styled(KeyboardArrowRight)`
   color: #000;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   cursor: pointer;
 `;
 
