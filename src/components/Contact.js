@@ -2,33 +2,26 @@ import React from "react";
 import Tabs from "./Tabs";
 import "../scss/Contact.scss";
 import styled from "styled-components";
-import { Github } from "styled-icons/boxicons-logos/Github";
 import { Twitter } from "styled-icons/boxicons-logos/Twitter";
 import { LinkedinSquare } from "styled-icons/boxicons-logos/LinkedinSquare";
 import { Mail } from "styled-icons/material/Mail";
 
-const GithubDark = styled(Github)`
-  color: #0066ff;
-  height: 35px;
-  width: 35px;
-`;
-
 const TwitterDark = styled(Twitter)`
-  color: #0066ff;
-  height: 35px;
-  width: 35px;
+  color: #000;
+  height: 25px;
+  width: 25px;
 `;
 
 const LinkedinDark = styled(LinkedinSquare)`
-  color: #0066ff;
-  height: 35px;
-  width: 35px;
+  color: #000;
+  height: 25px;
+  width: 25px;
 `;
 
 const MailDark = styled(Mail)`
-  color: #0066ff;
-  height: 35px;
-  width: 35px;
+  color: #000;
+  height: 25px;
+  width: 25px;
 `;
 
 export default function Contact() {
@@ -45,9 +38,6 @@ export default function Contact() {
           </a>
           <a href="mailto:brianrilles@gmail.com">
             <MailDark /> Email
-          </a>
-          <a href="https://github.com/brilles">
-            <GithubDark /> Github
           </a>
         </div>
         <div className="email">
