@@ -5,15 +5,17 @@ import "./scss/App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="nav">
-          <Navbar />
-        </div>
-        <div className="main">Main</div>
-        <div className="footer">Footer</div>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <div className="nav-wrapper">
+            <Navbar />
+          </div>
+          <div className="main-wrapper">Main</div>
+          <div className="footer-wrapper">Footer</div>
+        </header>
+      </div>
+    </Router>
   );
 }
 
