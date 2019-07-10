@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
 
+$mobile: 600px;
+$tablet: 1050px;
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,6 +18,9 @@
 .main-wrapper {
   max-width: 1000px;
   margin: 0 auto;
+  // @media (max-width: $tablet) {
+  //   background: red;
+  // }
 }
 
 .main-wrapper {

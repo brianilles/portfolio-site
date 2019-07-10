@@ -1,3 +1,5 @@
+$mobile: 600px;
+$tablet: 1050px;
 .tabs {
   display: flex;
   align-items: center;
@@ -7,6 +9,9 @@
     animation-duration: 5s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
+    @media (max-width: $tablet) {
+      animation: none;
+    }
   }
 }
 .dots {

@@ -1,3 +1,5 @@
+$mobile: 600px;
+$tablet: 1050px;
 .top {
   text-align: left;
 }
@@ -8,6 +10,9 @@
   align-items: center;
   width: 100%;
   margin: 0 auto;
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
   h2 {
     color: #000;
     font-size: 40px;

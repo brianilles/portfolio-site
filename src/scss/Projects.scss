@@ -1,9 +1,15 @@
+$mobile: 600px;
+$tablet: 1050px;
 .project {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
+  @media (max-width: $tablet) {
+    flex-flow: row wrap;
+    padding-top: 30px;
+  }
   .card {
     width: 290px;
     display: flex;
@@ -16,6 +22,9 @@
     box-shadow: 0px 0px 29px 5px rgba(240, 240, 240, 1);
     transform: translateY(0px);
     transition: 0.5s;
+    @media (max-width: $tablet) {
+      margin: 20px;
+    }
     h3 {
       font-size: 25px;
       margin-bottom: 25px;

@@ -1,10 +1,15 @@
+$mobile: 600px;
+$tablet: 1050px;
 .top {
-  height: 82.5vh;
+  height: 80vh;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media (max-width: $tablet) {
+    min-height: 80vh;
+  }
   a {
     color: #0066ff;
     text-decoration: none;
@@ -30,6 +35,6 @@
   }
 }
 .bottom {
-  height: 7.5vh;
+  height: 10vh;
   text-align: center;
 }

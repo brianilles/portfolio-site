@@ -1,3 +1,5 @@
+$mobile: 600px;
+$tablet: 1050px;
 .footer {
   height: 60px;
   max-width: 1000px;
@@ -5,8 +7,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: $tablet) {
+    width: 95%;
+  }
   .left {
-    width: 15%;
+    min-width: 125px;
     text-align: left;
     display: flex;
     justify-content: space-between;
