@@ -10,8 +10,8 @@
   }
   a {
     text-decoration: none;
-    color: #000;
-    opacity: 0.6;
+    color: rgb(126, 126, 126);
+    padding: 5px 10px;
   }
   .center {
     display: flex;
@@ -19,6 +19,12 @@
     width: 40%;
   }
   .activeNav {
-    opacity: 1;
+    color: #000;
+  }
+  .contact-tab {
+    border: 1px solid #0066ff;
+  }
+  .contact-tab:hover {
+    color: #000;
   }
 }

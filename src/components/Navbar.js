@@ -21,7 +21,11 @@ export default function Navbar() {
         </NavLink>
       </div>
       <div className="right">
-        <NavLink to="/contact" activeClassName="activeNav">
+        <NavLink
+          className="contact-tab"
+          to="/contact"
+          activeClassName="activeNav"
+        >
           CONTACT
         </NavLink>
       </div>
