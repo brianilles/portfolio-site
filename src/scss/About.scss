@@ -4,9 +4,9 @@
 .middle {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   h2 {
     color: #000;
@@ -38,7 +38,8 @@
   }
   .profile-right {
     line-height: 1.6;
-    width: 55%;
+    width: 300px;
+    margin-left: 40px;
     a {
       color: red;
       text-decoration: none;
