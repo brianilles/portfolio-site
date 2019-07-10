@@ -7,21 +7,27 @@ import { LinkedinSquare } from "styled-icons/boxicons-logos/LinkedinSquare";
 import { Mail } from "styled-icons/material/Mail";
 
 const TwitterDark = styled(Twitter)`
-  color: #000;
-  height: 25px;
-  width: 25px;
+  color: #0066ff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin-right: 5px;
 `;
 
 const LinkedinDark = styled(LinkedinSquare)`
-  color: #000;
-  height: 25px;
-  width: 25px;
+  color: #0066ff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin-right: 5px;
 `;
 
 const MailDark = styled(Mail)`
-  color: #000;
-  height: 25px;
-  width: 25px;
+  color: #0066ff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin-right: 5px;
 `;
 
 export default function Contact() {

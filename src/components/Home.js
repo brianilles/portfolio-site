@@ -5,9 +5,11 @@ import styled from "styled-components";
 import { Github } from "styled-icons/boxicons-logos/Github";
 
 const GithubDark = styled(Github)`
-  color: #000;
-  height: 25px;
-  width: 25px;
+  color: #0066ff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin-right: 5px;
 `;
 
 export default function Home() {

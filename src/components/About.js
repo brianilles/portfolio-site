@@ -30,12 +30,10 @@ export default function About() {
               and learning. I write readable and performance-driven code.{" "}
             </p>
             <p className="currently">
-              Currently - Finishing up Lambda School’s Computer Science and Web
+              Currently - finishing up Lambda School’s Computer Science and Web
               Development Program
             </p>
-            <Link className="link" to="/projects">
-              See what I've been working on
-            </Link>
+            <Link to="/projects">See what I've been working on</Link>
           </div>
         </div>
       </div>

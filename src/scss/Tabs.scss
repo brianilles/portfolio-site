@@ -4,6 +4,9 @@
   .arrow {
     width: 45px;
     z-index: 1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
   }
 }
 .dots {

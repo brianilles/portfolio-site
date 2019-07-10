@@ -42,13 +42,15 @@
     margin-left: 40px;
     a {
       color: red;
-      text-decoration: none;
+      text-align: center;
+      height: 30px;
+      width: 216px;
+      border-bottom: 1px solid red;
+    }
+    a:hover {
       background: none;
-      margin: 0;
-      padding: 0;
-      padding-bottom: 3px;
-      border-bottom: 2px solid red;
       border-radius: 0;
+      border-bottom: 2px solid red;
     }
   }
   .currently {
