@@ -26,8 +26,8 @@ export default function About() {
           <div className="profile-right">
             <h2>Hi, I'm Brian</h2>
             <p>
-              I’m a full-stack software developer who is constanting creating
-              and learning. I write readable and performance-driven code.{" "}
+              I’m a full-stack software developer who is constantly creating and
+              learning. I write readable and performance-driven code.
             </p>
             <p className="currently">
               Currently - finishing up Lambda School’s Computer Science and Web
