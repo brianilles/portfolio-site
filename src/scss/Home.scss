@@ -22,12 +22,18 @@ $tablet: 1050px;
     border-radius: 50px;
   }
   h1 {
-    font-size: 100px;
+    font-size: 5rem;
+    @media (max-width: $mobile) {
+      font-size: 4rem;
+    }
     font-weight: 900;
   }
   h2 {
     color: #0066ff;
     font-size: 22px;
+    @media (max-width: $mobile) {
+      font-size: 1.1rem;
+    }
   }
   .home {
     margin-top: 10px;
