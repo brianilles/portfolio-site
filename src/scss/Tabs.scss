@@ -11,6 +11,7 @@ $tablet: 1050px;
     animation-iteration-count: infinite;
     @media (max-width: $tablet) {
       animation: none;
+      padding-right: 20px;
     }
   }
 }
