@@ -6,6 +6,9 @@ $tablet: 1050px;
   align-items: center;
   font-weight: 700;
   height: 10vh;
+  @media (max-width: $mobile) {
+    margin-bottom: 30px;
+  }
   @media (max-width: $tablet) {
     padding: 10px 10px 0 10px;
   }

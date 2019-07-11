@@ -8,8 +8,8 @@ $tablet: 1050px;
   margin: 0 auto;
   @media (max-width: $tablet) {
     flex-flow: row wrap;
-    padding: 30px;
   }
+
   .card {
     width: 290px;
     display: flex;
@@ -47,6 +47,11 @@ $tablet: 1050px;
     a {
       padding: 5px 10px;
       margin: 5px 0;
+    }
+  }
+  .card:last-child {
+    @media (max-width: $tablet) {
+      margin-bottom: 50px;
     }
   }
   .card:hover {

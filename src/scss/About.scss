@@ -10,8 +10,8 @@ $tablet: 1050px;
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  @media (max-width: $mobile) {
-    flex-direction: column;
+  @media (max-width: $tablet) {
+    flex-flow: row wrap;
   }
 
   h2 {
