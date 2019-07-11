@@ -17,9 +17,9 @@ $tablet: 1050px;
     align-items: center;
     padding: 10px;
     border-radius: 20px;
-    -webkit-box-shadow: 0px 0px 29px 5px rgba(240, 240, 240, 1);
-    -moz-box-shadow: 0px 0px 29px 5px rgba(240, 240, 240, 1);
-    box-shadow: 0px 0px 29px 5px rgba(240, 240, 240, 1);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
     transform: translateY(0px);
     transition: 0.5s;
     @media (max-width: $tablet) {
@@ -52,8 +52,8 @@ $tablet: 1050px;
   .card:hover {
     transform: translateY(-6px);
     transition: 0.5s;
-    -webkit-box-shadow: 0px 0px 29px 11px rgba(219, 219, 219, 1);
-    -moz-box-shadow: 0px 0px 29px 11px rgba(219, 219, 219, 1);
-    box-shadow: 0px 0px 29px 11px rgba(219, 219, 219, 1);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.16);
   }
 }
