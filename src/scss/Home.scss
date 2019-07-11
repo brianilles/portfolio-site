@@ -22,9 +22,9 @@ $tablet: 1050px;
     border-radius: 50px;
   }
   h1 {
-    font-size: 5rem;
+    font-size: 100px;
     @media (max-width: $mobile) {
-      font-size: 4rem;
+      font-size: 80px;
     }
     font-weight: 900;
   }
@@ -32,7 +32,7 @@ $tablet: 1050px;
     color: #0066ff;
     font-size: 22px;
     @media (max-width: $mobile) {
-      font-size: 1.1rem;
+      font-size: 18px;
     }
   }
   .home {
