@@ -9,6 +9,7 @@ $tablet: 1050px;
   @media (max-width: $tablet) {
     padding: 10px 10px 0 10px;
   }
+
   img {
     height: 52px;
     width: 52px;
@@ -21,15 +22,9 @@ $tablet: 1050px;
   .center {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 300px;
   }
   .activeNav {
-    color: #000;
-  }
-  .contact-tab {
-    border: 2px solid #0066ff;
-  }
-  .contact-tab:hover {
     color: #000;
   }
 }
