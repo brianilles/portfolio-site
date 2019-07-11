@@ -3,6 +3,9 @@ $tablet: 1050px;
 .tabs {
   display: flex;
   align-items: center;
+  @media (max-width: $tablet) {
+    display: none;
+  }
   .arrow {
     width: 45px;
     z-index: 1;
